@@ -107,17 +107,17 @@ def main():
         welcomeBanner()
 
         # Getting filepath info from user
-        filePath = input(bcolors.BOLD + "Enter your URL Path of the images: ")
+        filePath = input(bcolors.BOLD + "Enter your URL Path of the images:https://www.ragalahari.com/actress/168328/rishika-nisha-white-long-gown-exclusive-photo-shoot.aspx ")
 
         # Getting filename info from user
-        fileName = input(bcolors.BOLD + "Enter your filename: ")
+        fileName = input(bcolors.BOLD + "Enter your filename:program testing.jpg ")
         
         # Getting folder info from user for structured storings
-        folderName = input(bcolors.BOLD + "Folder name: ").title()
+        folderName = input(bcolors.BOLD + "Folder name:test folder ").title()
 
         # Getting cycle loop info from user
         cycle = input(
-            bcolors.BOLD + "How much image you want me to download? (Default: 100): ")
+            bcolors.BOLD + "How much image you want me to download? (Default: 100): 150")
 
         try:
             if cycle == '':
